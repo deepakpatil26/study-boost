@@ -2,6 +2,14 @@
 
 > A full-stack chatbot that turns _“I don’t get it”_ into _“Now I can teach it!”_
 
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-000?style=for-the-badge&logo=vercel&logoColor=white)](https://study-boost-delta.vercel.app/)
+
+## 🖼️ Screenshots
+
+| Chat Interface                                  | Concept Explainer                                               | Quiz Generation                       |
+| ----------------------------------------------- | --------------------------------------------------------------- | ------------------------------------- |
+| ![Chat Interface](/public/screenshots/chat.png) | ![Concept Explainer](/public/screenshots/concept-explainer.png) | ![Quiz](/public/screenshots/quiz.png) |
+
 ---
 
 ## 🎯 Problem Statement
@@ -24,8 +32,8 @@ StudyBuddy AI solves this by providing a **responsive, streaming chatbot** that:
 
 ## ✅ Core Features
 
-| Feature                 | Description                                                                 |
-| ----------------------- | --------------------------------------------------------------------------- |
+| Feature                | Description                                                                 |
+| ---------------------- | --------------------------------------------------------------------------- |
 | 🔐 **Auth & Profiles**  | Google OAuth sign-in; user can set grade, subjects, and preferred language. |
 | 💬 **Streaming Chat**   | Real-time AI responses using Gemini API (text + images).                    |
 | 📄 **Document Q&A**     | Upload PDF / PNG / JPG; ask questions about the content.                    |
@@ -57,16 +65,16 @@ StudyBuddy AI solves this by providing a **responsive, streaming chatbot** that:
 
 ```bash
 # 1. Clone & install
-git clone https://github.com/deepakpatil26/study-buddy.git
-cd study-buddy
-pnpm install          # or npm / yarn
+git clone https://github.com/deepakpatil26/study-boost.git
+cd study-boost
+npm install          # or npm / yarn
 
 # 2. Configure Firebase
 cp client/.env.example client/.env.local
 # Add your Firebase & Gemini keys
 
 # 3. Run dev servers
-pnpm dev              # spins up Vite client + Node server
+npm run dev              # spins up Vite client + Node server
 ```
 
 ---
@@ -75,9 +83,9 @@ pnpm dev              # spins up Vite client + Node server
 
 ```bash
 # client/.env.local
-VITE_FIREBASE_API_KEY=xxx
-VITE_FIREBASE_AUTH_DOMAIN=xxx
-VITE_GEMINI_API_KEY=xxx
+NEXT_PUBLIC_FIREBASE_API_KEY=xxx
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=xxx
+NEXT_PUBLIC_GEMINI_API_KEY=xxx
 
 # server/.env
 GEMINI_API_KEY=xxx
