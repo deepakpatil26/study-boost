@@ -32,8 +32,8 @@ StudyBuddy AI solves this by providing a **responsive, streaming chatbot** that:
 
 ## ✅ Core Features
 
-| Feature                | Description                                                                 |
-| ---------------------- | --------------------------------------------------------------------------- |
+| Feature                 | Description                                                                 |
+| ----------------------- | --------------------------------------------------------------------------- |
 | 🔐 **Auth & Profiles**  | Google OAuth sign-in; user can set grade, subjects, and preferred language. |
 | 💬 **Streaming Chat**   | Real-time AI responses using Gemini API (text + images).                    |
 | 📄 **Document Q&A**     | Upload PDF / PNG / JPG; ask questions about the content.                    |
