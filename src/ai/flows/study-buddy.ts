@@ -4,7 +4,7 @@
  */
 
 import { groqClient } from '@/ai/genkit';
-import { z } from 'genkit';
+import { z } from 'zod';
 
 const StudyBuddyInputSchema = z.object({
   history: z

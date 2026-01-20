@@ -7,7 +7,7 @@
  * - SynthesizeSpeechOutput - The return type for the synthesizeSpeech function.
  */
 
-import { z } from 'genkit';
+import { z } from 'zod';
 
 const SynthesizeSpeechInputSchema = z.string();
 export type SynthesizeSpeechInput = z.infer<typeof SynthesizeSpeechInputSchema>;

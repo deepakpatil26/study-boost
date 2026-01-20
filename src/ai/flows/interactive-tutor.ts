@@ -8,7 +8,7 @@
  */
 
 import { groqClient } from '@/ai/genkit';
-import { z } from 'genkit';
+import { z } from 'zod';
 
 const TutorLessonInputSchema = z.object({
   topic: z.string().describe('The topic for the lesson.'),
